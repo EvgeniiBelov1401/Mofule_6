@@ -9,23 +9,23 @@ namespace Exercise_6_3_2
     internal class Bus
     {
         public int? Load;
-        public bool? HasLoad;
+        public bool? HasValue;
 
         public void PrintStatus()
         {
-            if (HasLoad==true && Load>0)
+            if (HasValue==true && Load>0)
             {
-                Console.WriteLine($"В автобусе {Load} пассажиров");
+                Console.WriteLine($"В автобусе {Load.Value} пассажиров");
             }
             else
             {
                 Console.WriteLine($"Автобус пустой");
             }
         }
-        public Bus(Load load)
+        public Bus(bool hasValue,int value)
         {
-            Load=load.Value;
-            HasLoad=load.HasValue;
+            HasValue = hasValue;
+            Load = value;
         }
 
 

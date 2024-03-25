@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Bus bus = new Bus(new Load(false ,10));
+            Bus bus = new Bus(true,10);
             bus.PrintStatus();
         }
     }
