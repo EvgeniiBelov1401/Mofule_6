@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise_6_3_2", "Exercise_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise_6_0_1", "Exercise_6_0_1\Exercise_6_0_1.csproj", "{B21DE55B-A918-4FFB-B3CE-460BE7032B79}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit_4", "Unit_4", "{619F44D4-6533-4B22-B11B-3ABC713EA8E7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
