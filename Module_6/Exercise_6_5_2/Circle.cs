@@ -17,7 +17,7 @@ namespace Exercise_6_5_2
 
         public double Perimeter()
         {
-            return 2+Math.PI*radius;
+            return 2*Math.PI*radius;
         }
     }
 }
